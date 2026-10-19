@@ -7,3 +7,6 @@ PySide6>=6.5
 # Optional (GPU, from source only): CUDA libraries from pip. Uncomment if you want them.
 # nvidia-cublas-cu12
 # nvidia-cudnn-cu12
+
+# For packaging the application into a standalone executable, you can use PyInstaller. The following command can be used to create a Windows executable:
+# pyinstaller --noconfirm --clean --windowed --name BanglaWhisper --collect-all faster_whisper --collect-all ctranslate2 --collect-all av --collect-all onnxruntime --collect-all tokenizers --exclude-module tkinter --exclude-module matplotlib --exclude-module pandas --exclude-module scipy --exclude-module IPython --exclude-module pytest --icon app.ico main.py
