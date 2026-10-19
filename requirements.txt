@@ -1,0 +1,9 @@
+# Runtime dependencies for Voice to English
+# Install with: pip install -r requirements.txt
+
+faster-whisper>=1.0.0
+PySide6>=6.5
+
+# Optional (GPU, from source only): CUDA libraries from pip. Uncomment if you want them.
+# nvidia-cublas-cu12
+# nvidia-cudnn-cu12

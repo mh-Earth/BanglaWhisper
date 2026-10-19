@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Models and audio (large files, never commit these)
+models/
+*.bin
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.opus
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+/voices
